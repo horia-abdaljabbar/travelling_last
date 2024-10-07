@@ -22,7 +22,7 @@ function App() {
         {
           path: "/",
           element: 
-          <Register />,
+          <HomeApp />,
         },
         {
           path: "/Home",
