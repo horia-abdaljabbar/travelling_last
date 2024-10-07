@@ -8,8 +8,9 @@ import Register from './Pages/Register/Register';
 import SendCode from './Pages/SendCode/SendCode';
 import ForgetPassword from './Pages/ForgetPassword/ForgetPassword'
 import ResetPassword from './Pages/ResetPassword/ResetPassword'
-import HomePage from './Pages/HomeApp'
+// import HomePage from './Pages/HomeApp'
 import SendCodeForForgetPassword from './Pages/SendCodeForForgetPassword/SendCodeForForgetPassword';
+import Home from './pages/homepage/home';
 // import  LanguageContextProvider  from './components/context/Language.jsx';
 
 function App() {
@@ -26,9 +27,7 @@ function App() {
         {
           path: "/Home",
           element:
-          // <LanguageContextProvider>
-             <HomePage />
-          // </LanguageContextProvider>,
+             <Home />
         },
       
         {
