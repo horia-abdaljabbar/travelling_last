@@ -1,0 +1,98 @@
+{
+        "arabic":"العربية",
+        "english":"الانجليزية",
+        "signUp":"تسجيل حساب",
+        "emailAddress":"البريد الالكتروني",
+        "password":"كلمة المرور",
+        "confirmPassword":"تأكيد كلمة المرور",
+        "userName":"اسم المستخدم",
+        "login":"تسجيل الدخول",
+        "havaAccount":"هل لديك حساب؟",
+        "wantToSignUp":"تريد التسجيل؟",
+        "forgetPassword":"نسيت  كلمة المرور؟",
+        "confirmEmailAddress":"التحقق من البريد الالكتروني",
+        "pleaseEnterThe":"الرجاء إدخال",
+        "key":"الرمز",
+        "forYourEmail":"...الخاص ببريدك الالكتروني",
+        "continue":"تابع",
+        "resetPassword":"إعادة تعيين كلمة المرور",
+        "enterA":"أدخل",
+        "newPassword":"كلمة المرور الجديدة",
+        "forYourAccount":"...الخاصة بحسابك",
+        "resetPasswordBtn":"إعادة تعيين كلمة المرور",
+        "signBtn":"تسجيل",
+
+        "contact":"اتصل بنا",
+        "whyUs":"لماذا نحن",
+        "homePage":"الصفحة الرئيسية",
+        "tours":"الرحلات السياحية",
+        "turkey":"تركيا",
+        "egypt":"مصر",
+        "jordan":"الأردن",
+        "hajj&umrah":"الحج والعمرة",
+
+        "sliderImg1Caption":"أجمل الوجهات السياحية في العالم",
+        "sliderImg2Caption":"اختر رحلتك وخلي صيفك وكيفك علينا",
+    "sliderImg3Caption":"رحلة إيمانية مميزة",
+    "sliderImg4Caption":"فرصة زيارة أجمل المدن السياحية",
+    "sliderImg5Caption":"استمتع برحلة الأحلام",
+
+
+
+
+        "fathiaTitle":"فتحية",
+        "antalyaTitle":"أنطاليا",
+        "trabzonTitle":"طرابزون",
+        "istanbulTitle":"اسطنبول",
+        "marmarisTitle":"مرمريس",
+        "alexandriaTitle":"الاسكندرية",
+        "4days":"4 أيام",
+        "3nights":"3 ليالي",
+        "dinar":"دينار",
+        "5days":"5 أيام",
+    "4nights":"4 ليالي",
+    "6days":"6 أيام",
+    "5nights":"5 ليالي",
+    "cairoTitle":"القاهرة",
+    "sharmTitle":"شرم الشيخ",
+    "alexandria":"الاسكندرية",
+    "gardaqaTitle":"الغردقة",
+    "ammanAqabaWadi":"عمان /العقبة/ وادي رم",
+    "omraByAir":"رحلة عمرة جواً",
+    "8days":"8 أيام",
+    "7nights":"7 ليالي",
+    "omraByLand":"رحلة عمرة براً",
+    "12Days":"12 يوم",
+    "15Days":"15 يوم",
+    "overallPricePackages":"بكجات أسعار شاملة",
+    "internalTouristTours":"جولات سياحية داخلية",
+    "anAccompanyingPersonDuringTheTrip":"مندوب مرافق خلال الرحلة",
+    "ChooseTheBestHotels":"اختيار أفضل الفنادق",
+    "specialPricesForChildren":"أسعار خاصة للأطفال",
+    "whyBest":"لماذا نحن الأفضل",
+    "discover":"استكشف معنا",
+    "turkeyTrips":"رحلات تركيا",
+    "less":"عرض أقل",
+    "more":"عرض المزيد",
+    "egyptTrips":"رحلات مصر",
+    "jordanTrips":"رحلات الأردن",
+    "umrahTrips":"رحلات العمرة",
+
+    "specialTours":"رحلات مميزة إلى أجمل الوجهات السياحية حول العالم",
+    "contactUs":"تواصل معنا",
+    "name":"الاسم",
+    "subject":"الموضوع",
+    "message":"الرسالة",
+    "send":"أرسل",
+    "copyRight":"جميع الحقوق محفوظة @2024 لشركة اليونس للحج والعمرة"
+    
+
+
+    
+
+
+
+
+
+
+}

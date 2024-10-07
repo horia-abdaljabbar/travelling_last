@@ -1,0 +1,148 @@
+.sendCodeSection .infoPara{
+  font-size: 22px;
+}
+
+.sendCodeForm .authTitle {
+  font-size: 27px;
+}
+
+
+.sendCodeSection .sendCodeForm .keyIcon,.resetPasswordSection .resetPasswordForm .keyIcon{
+  width: 15%;
+}
+
+.sendCodeSection .sendCodeForm .codeInputs .otpInput {
+border-radius:0;
+width: 12%;
+border: #dedede solid 3px;
+text-align: center;
+padding:10px 2px;
+}
+
+
+@media (min-width: 650px) and (max-width: 938px) {
+  .sendCodeSection {
+    width: 70%;
+  }
+  .sendCodeSection .sendCodeForm {
+    width: 100%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+  .sendCodeForm .authTitle {
+      font-size: 24px;
+    }
+  .sendCodeForm::after{
+    border-top: 95px solid #f49a0b;
+    border-left: 85px solid transparent;
+  }
+  
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+  .sendCodeForm .authTitle{
+    font-size: 25px;
+  }
+  .sendCodeSection {
+    width: 90%;
+  }
+
+
+  .sendCodeSection .sendCodeForm input {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 381px) and (max-width: 550px) {
+  .sendCodeForm .authTitle{
+    font-size: 22px;
+  }
+  .sendCodeForm::after{
+      border-top: 90px solid #f49a0b;
+      border-left: 80px solid transparent;
+    }
+
+    .sendCodeSection {
+      width: 98%;
+    }
+    .sendCodeSection .sendCodeForm {
+      width: 100%;
+    }
+  
+    .sendCodeSection .sendCodeForm input {
+      font-size: 13px;
+      width: 100%;
+    }
+  
+    .sendCodeSection .sendCodeForm .submitBtn {
+      width: 100%;
+      font-size: 15px;
+    }
+
+    .sendCodeForm .infoPara{
+      font-size: 22px;
+    }
+    .sendCodeForm .emailWord{
+      font-size: 20px;
+  
+    }
+
+  
+ 
+}
+
+@media (min-width: 320px) and (max-width:380px) {
+  .sendCodeForm .authTitle{
+      font-size: 20px;
+    }
+  .sendCodeSection {
+      width: 98%;
+    }
+    .sendCodeSection .sendCodeForm {
+      width: 100%;
+    }
+  
+    .sendCodeSection .sendCodeForm input {
+      font-size: 13px;
+      width: 100%;
+    }
+  
+    .sendCodeSection .sendCodeForm .submitBtn {
+      width: 100%;
+      font-size: 15px;
+    }
+
+    .sendCodeForm .infoPara{
+      font-size: 22px;
+    }
+    .sendCodeForm .emailWord{
+      font-size: 20px;
+  
+    }
+  .sendCodeForm::after{
+        border-top: 80px solid #f49a0b;
+        border-left: 70px solid transparent;
+      }
+  .arrowIcon{
+    width: 20px;
+    
+  }
+
+.loginSys video{
+  display: none;
+ }
+
+ .sendCodeSection .sendCodeForm .codeInputs .otpInput {
+  border-radius:0;
+  width: 17%;
+  border: #dedede solid 3px;
+  text-align: center;
+  }
+    
+}
+
+
+

@@ -1,0 +1,107 @@
+{
+    "arabic":"Arabic",
+    "english":"English",
+
+
+    "signUp":"SignUp",
+    "userName":"User Name",
+    "password":"Password",
+    "confirmPassword":"Confirm Password",
+    "login":"Login",
+    "havaAccount":" Already hava an account?",
+    "emailAddress":"Email",
+    "wantToSignUp":"Register?",
+    "forgetPassword":"Forget Password?",
+    "confirmEmailAddress":"Verify Your Email",
+    "pleaseEnterThe":"please enter your",
+    "key":"code",
+    "forYourEmail":"to verify & continue...",
+    "continue":"Continue",
+    "resetPassword":"Reset Password",
+    "enterA":"Enter A",
+    "newPassword":"New Password",
+    "forYourAccount":"For Your Account...",
+    "resetPasswordBtn":"Reset Password",
+    "signBtn":"SignUp",
+
+    "contact":"Call Us",
+    "whyUs":"Why Us",
+    "homePage":"Home",
+    "tours":"Tourist Trips",
+    "turkey":"Türkiye",
+    "egypt":"Egypt",
+    "jordan":"Jordan",
+    "hajj&umrah":"Hajj & Umrah",
+
+
+    "sliderImg1Caption":"The Most Beautiful Tourist Destinations In The World",
+    "sliderImg2Caption":"Choose Your Trip And Leave Your Mood To Us",
+    "sliderImg3Caption":"A Special Religious Trip",
+    "sliderImg4Caption":"The Opportunity To Visit The Most Beautiful Tourist Cities",
+    "sliderImg5Caption":"Enjoy Your Dream Trip",
+
+
+
+
+
+
+    "fathiaTitle":"Fethiye",
+    "antalyaTitle":"Antalya",
+    "trabzonTitle":"Trabzon",
+    "istanbulTitle":"Istanbul",
+    "marmarisTitle":"Marmaris",
+    "4days":" Days 4",
+    "3nights":" Nights 3",
+    "dinar":"Dinar",
+    "5days":"5Days",
+    "4nights":"4Nights",
+    "6days":"6 Days",
+    "5nights":"5 Nights",
+    "cairoTitle":"Cairo",
+    "sharmTitle":"Sharm El-Sheikh",
+    "alexandriaTitle":"Alexandria",
+    "gardaqaTitle":"Hurghada",
+    "ammanAqabaWadi":"Amman/Aqaba/Wadi Rum",
+    "omraByAir":"Umrah trip by air",
+    "8days":"8 Days",
+    "7nights":"7 Nights",
+    "omraByLand":"Umrah Land Trip",
+    "12Days":"12 Days",
+    "15Days":"15 Days",
+    "overallPricePackages":"Overall Price Packages",
+    "internalTouristTours":"Internal Tourist Tours",
+    "anAccompanyingPersonDuringTheTrip":"An Accompanying Person During The Trip",
+    "ChooseTheBestHotels":"Choose The Best Hotels",
+    "specialPricesForChildren":"Special Prices For Children",
+    "whyBest":"Why We Are The Best",
+    "discover":"Discover With Us",
+    "turkeyTrips":"Türkiye Trips",
+    "less":"Less",
+    "more":"More",
+    "egyptTrips":"Egypt Trips",
+    "jordanTrips":"Jordan Trips",
+    "umrahTrips":"Umrah Trips",
+
+
+    "specialTours":"Special Trips To The Most Beautiful Tourist Destinations Around The World",
+    "contactUs":"Contact With Us",
+    "name":"Name",
+    "subject":"Subject",
+    "message":"Message",
+    "send":"Send",
+    "copyRight":"All Rights Reserved @2024 To Al-Younis Hajj And Umrah Company"
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

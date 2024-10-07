@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", Arial, sans-serif; */
+    text-decoration: none;
+    text-transform: capitalize;  }
+
+
+.submitBtn {
+  width: 50%;
+  margin: auto;
+  padding:10px;
+  background-image: linear-gradient(to right, #79aff5, #f49a0b);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.submitBtn:hover {
+  background-color: #f49a0b;
+}
+
+.authTitle {
+  color: #020c4d;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size:30px;
+}
+

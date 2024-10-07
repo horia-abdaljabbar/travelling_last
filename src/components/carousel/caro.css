@@ -1,0 +1,129 @@
+/* Basic styling for the carousel container */
+.carousel {
+    min-width: 400px;
+    overflow: hidden;
+}
+
+/* Carousel inner container that holds all the slides */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 600px;
+    gap: 35px;
+}
+
+/* Each carousel item (slide) */
+.carousel-item {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex: 0 0 33.33%;
+    /* Center the card horizontally */
+    align-items: center;
+    gap: 10px;
+
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+/* Image styling */
+.card {
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 620px;
+    /* Ensure card fits within the carousel item */
+ 
+}
+.card .card-image{
+    position: relative;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 5px;
+    border-bottom: 3px solid transparent;
+    background: #fafafa;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card-content h3 {
+    padding-right: 5px;
+    font-size: 21px;
+    color: #636363;
+}
+
+.card-content span {
+    font-size: 12px;
+    color: #fb000d;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #959595;
+}
+
+.card-content button {
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 5px 5px;
+    background: #00a99d;
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+
+/* Dots for navigation */
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-dots .dot.active {
+    background-color: #333;
+}
+.overlay {
+    background: rgba(28, 187, 180, 0.8);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    opacity: 0;
+    text-align: right;
+}
+.overlay .overlay-text{
+    padding: 10px;
+}
+.overlay h3 {
+    font-size: 14px;
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 10px;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}

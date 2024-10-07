@@ -1,0 +1,125 @@
+
+
+.forgetPassword {
+  text-decoration-line: underline;
+  color: #041aae;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 7px 35px;
+  padding-right: 10%;
+}
+.wantToSign{
+  text-decoration-line: underline;
+  color: #041aae;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 7px 35px;
+  padding-left: 10%;
+
+}
+
+.input-boxPass1 {
+    position: relative;
+  }
+  .eyeIcon1 ,.arEyeIcon {
+    position: absolute;
+    left: 12%;
+    width:22px;
+    margin-left: auto;
+}
+
+.enEyeIcon{
+position: absolute;
+right: 12%;
+width:22px;
+margin-left: auto;
+}
+  @media (min-width: 650px) and (max-width: 938px) {
+    .loginSection {
+      width: 70%;
+    }
+    .loginSection .loginForm {
+      width: 100%;
+    }
+   
+  }
+
+  @media (min-width: 650px) and (max-width: 800px) {
+    .loginForm .authTitle{
+        font-size: 25px;
+      }
+    .loginForm::after{
+      border-top: 90px solid #f49a0b;
+      border-left: 80px solid transparent;
+    }
+    
+  }
+  /* @media (min-width: 551px) and (max-width: 650px) {
+    .loginSection .loginForm {
+      width: 100%;
+       padding: 2px    }
+    } */
+
+    @media (min-width: 551px) and (max-width: 650px) {
+      .loginForm .authTitle{
+        font-size: 25px;
+      }
+      .loginSection {
+        width: 90%;
+      }
+      .loginSection .infoPara{
+        font-size: 22px;
+      }
+      
+    
+    
+      .loginSection .loginForm input {
+        font-size: 15px;
+        width: 100%;
+      }
+    }
+    
+  @media (min-width: 320px) and (max-width: 550px) {
+    .loginSection {
+      width: 98%;
+    }
+    .loginSection .loginForm {
+      width: 100%;
+      /* padding: 2px    } */
+    }
+    .loginSection .loginForm input {
+      font-size: 15px;
+    width: 100%;
+    }
+    .wantToSign{
+      font-size: 16px;
+      font-weight: 500;
+      padding-left: 3%;
+    }
+  
+    .haveAccount  {
+      font-size: 16px;
+      font-weight: 500;
+      padding-right: 3%;
+    }
+    .loginSection .loginForm .submitBtn {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .eyeIcon1 {
+      width:22px;
+      left: 5%; 
+
+      }
+      .loginForm::after{
+        border-top: 80px solid #f49a0b;
+        border-left: 70px solid transparent;
+      }
+    
+      .loginSys video{
+        display: none;
+       }
+  }
+  

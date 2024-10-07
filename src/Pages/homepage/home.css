@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    width: calc(100% - 162px);
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 80px;
+}
+
+.home .slider {
+    margin: auto;
+    width: 100%;
+}
+
+.why-us {
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+
+.why-us h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: #635b5b;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.journies {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.journies .container {
+    padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.journies .card-content {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-Direction: column;
+    gap: 10px;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center */
+    padding-top: 20px;
+}
+
+.journies span {
+    font-size: 15px;
+    color: #f0ad49;
+    background-color: #eddabe;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #9a958c;
+}
+
+.journies h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: #635b5b;
+
+}
+
+.journies h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: #9a958c;
+
+}
+
+.item-list {
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    display: flex;
+    justify-Content: center;
+    flex-Wrap: wrap;
+}
+
+/* Collapsed state (only show first 3 items) */
+.collapsed {
+    max-height: 58vh;
+    /* Adjust based on number of items visible (e.g. 3 items) */
+}
+
+/* Expanded state (show all items) */
+.expanded {
+    max-height: 800vh;
+    /* Adjust max height for the entire list */
+}
+
+/* Show More/Show Less button */
+.toggle-button {
+    margin-top: 10px;
+    background-color: #f0ad49;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 1000px);
+    position: relative;
+}
+
+.toggle-button:hover {
+    background-color: #ff9900;
+}
+
+/* For screens less than 1024px */
+@media (max-width: 1024px) {
+    .home {
+        width: 100%; /* Adjust width for medium screens */
+        gap: 60px;
+    }
+    
+    .why-us h2,
+    .journies h2,
+    .journies h4 {
+        font-size: 30px; /* Reduce font size for medium screens */
+    }
+
+}
+
+/* For screens less than 768px */
+@media (max-width: 768px) {
+    .home {
+        gap: 40px;
+        padding: 10px;
+    }
+    
+    .why-us h2,
+    .journies h2,
+    .journies h4 {
+        font-size: 25px; /* Smaller fonts for smaller screens */
+    }
+
+    .toggle-button {
+        max-width: 200px; /* Adjust button size further */
+    }
+
+    /* Adjust card-grid and other sections for better mobile responsiveness */
+    .card-grid {
+        flex-direction: column; /* Stack items on top of each other */
+    }
+}
+
+/* For screens less than 480px (mobile) */
+@media (max-width: 480px) {
+    .home {
+        padding: 5px;
+        gap: 20px;
+    }
+    .home .slider{
+        width: 50%;
+        height: 50%;
+    }
+    .card-grid{
+        width: 85%;
+        display: flex;
+    }
+    
+    .why-us h2,
+    .journies h2,
+    .journies h4 {
+        font-size: 20px; /* Even smaller fonts for mobile */
+    }
+
+    .toggle-button {
+        max-width: 180px; /* Narrow button on mobile */
+    }
+
+    /* Stack flex items vertically on mobile */
+    .journies .card-content {
+        flex-direction: column;
+    }
+    .collapsed {
+        max-height: 37vh;
+        /* Adjust based on number of items visible (e.g. 3 items) */
+    }
+    .toggle-button{
+        width: 50%;
+    }
+}

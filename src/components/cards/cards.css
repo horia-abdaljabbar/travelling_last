@@ -1,0 +1,37 @@
+.benefit-card {
+  width: calc(( 100% - 80px ) / 4);
+  background-color: white;
+  border: 2px solid #ffc106;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+}
+
+.benefit-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+h4 {
+  font-size: 18px;
+  color: #333;
+ 
+}
+
+
+
+/* For screen widths less than 768px */
+@media (max-width: 768px) {
+
+}
+
+/* For screen widths less than 480px */
+@media (max-width: 480px) {
+.benefit-card{
+  width: 100%;
+}
+
+}

@@ -1,0 +1,453 @@
+
+.loginSys{
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ position: relative;
+ z-index: 2;
+ height: 100vh;
+
+}
+.loginSys .container .language-select-container
+{
+  width: 10%;
+}
+
+.registerSection,
+.loginSection,
+.sendCodeSection,
+.forgetPasswordSection,
+.resetPasswordSection,
+.sendCodeForForgetPasswordSection {
+  width: 45%;
+  display: flex;
+  border-radius: 40px;
+}
+
+
+.loginSys video{
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+object-fit: cover;
+width: 100%;
+height: 100vh;
+filter: blur(.5px);
+}
+
+/* .registerSection .registrationImg,
+.loginSection img,
+.sendCodeSection img,
+.forgetPasswordSection img,
+.resetPasswordSection img ,.sendCodeForForgetPasswordSection img {
+  width: 35%;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  aspect-ratio: 120/200;
+  
+} */
+
+.registerSection .registerForm .logo {
+  width: 50%;
+}
+.registerForm,
+.loginForm,
+.forgetPasswordForm,
+.sendCodeForm,
+.resetPasswordForm ,.sendCodeForForgetPasswordForm {
+  width:100%;
+  padding: 0px 30px 0 30px;
+  position: relative;
+}
+
+.registerForm::after, .loginForm::after , .forgetPasswordForm::after
+,.sendCodeForm::after,.resetPasswordForm::after,.sendCodeForForgetPasswordForm::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 40px;
+  border-top: 100px solid #f49a0b;
+  border-left: 90px solid transparent;
+}
+.registerSection .registerForm .react-international-phone-input-container .react-international-phone-input{
+  background-image: url("/phoneIcon.svg");
+  background-repeat: no-repeat;
+  background-position:98% 50%;
+  background-size: 18px;
+  background-position-y: center;
+  border-radius: 40px;
+  direction: ltr;
+  width: 80%;
+  box-shadow: rgba(186, 213, 245, 0.3) 0px 0px 0px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 35px;
+  position: relative;
+
+}
+
+
+
+.registerSection .registerForm input,
+.loginSection .loginForm input,
+.resetPasswordSection .resetPasswordForm input,
+.forgetPasswordSection .forgetPasswordForm input ,
+.sendCodeForForgetPasswordSection .sendCodeForForgetPasswordForm input{
+  padding: 10px 35px;
+  border-radius: 40px;
+  /* direction: rtl; */
+  width: 80%;
+  box-shadow: rgba(186, 213, 245, 0.3) 0px 0px 0px 3px;
+    
+}
+
+.registerSection .registerForm .react-international-phone-input-container{
+  width: 100%;
+  /* position: relative; */
+  direction: ltr;
+}
+
+.registerSection .registerForm .react-international-phone-input-container
+.react-international-phone-country-selector{
+   position: relative;
+  left:0;
+  right: 50px; 
+  width: 10%;
+  z-index: 2;
+}
+
+.registerSection .registerForm .react-international-phone-input-container
+.react-international-phone-country-selector button{
+  border-radius: 40px 0 0 40px;
+  /* position: absolute;
+  top: 0;
+  bottom: -10;
+  left: -10%; */
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left:90%;
+  z-index: 5;
+  
+}
+
+
+
+.registerSection .registerForm .react-international-phone-input-container .react-international-phone-country-selector 
+.react-international-phone-country-selector-dropdown{
+  position: fixed;
+  left: 33.2%;
+  z-index: 5;
+  top:40%;
+
+}
+.registerSection .registerForm .react-international-phone-input-container
+.react-international-phone-country-selector button
+.react-international-phone-country-selector-button__flag-emoji
+{
+  margin: 3px;
+  padding: 2px;
+}
+
+
+.email,
+.password,
+.code,.password1 {
+  background-image: url("/phoneIcon.svg");
+  background-repeat: no-repeat;
+  background-position:98% 100%;
+   background-position:2% 0%; 
+
+  background-size: 18px;
+  background-position-y: center;
+  
+}
+
+
+.arEmail,.arPassword,.arCode,.arPassword1
+ {
+  background-position:98% 100%;
+  /* background-position:2% 0%; */
+  background-size: 18px;
+  background-position-y: center;
+  
+}
+.enEmail,.enPassword,.enCode,.enPassword1
+ {
+  background-position:2% 0%;
+  /* background-position:2% 0%; */
+  background-size: 18px;
+  background-position-y: center;
+  
+}
+
+
+
+
+.email {
+  background-image: url("/emailIcon.svg");
+
+}
+.password,.password1 {
+  background-image: url("/passwordIcon.svg");
+}
+.input-boxPass {
+  position: relative;
+}
+.eyeIcon ,.eyeIconN ,
+.eyeIconM ,.arEyeIcon ,.eyeIcon2 { 
+    position: absolute;
+    left: 12%;
+    width:22px;
+    margin-left: auto;
+}
+
+.enEyeIcon{
+  position: absolute;
+  right: 12%;
+  width:22px;
+  margin-left: auto;
+}
+
+.haveAccount,
+.forgetPassword {
+  text-decoration-line: underline;
+  color: #041aae;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 7px 35px;
+  padding-right: 10%;
+
+}
+.language-select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+}
+
+.language-select {
+  width: 40%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 2px solid #f9d29b;
+  background-color: #f7950d;
+  color: #fff;
+  appearance: none; /* Removes default styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 5px #f9d29b;
+}
+
+.language-select:focus {
+  outline: none;
+  border-color: #f9d29b;
+  box-shadow: 0 0 10px #f9d29b;
+}
+
+
+.language-select:hover {
+  background-color: #e09437;
+  border-color: #f9d29b;
+}
+
+
+@media (min-width: 924px) and (max-width:1000px) {
+  .registerSection {
+    width: 70%;
+  }
+  .registerSection .registerForm {
+    width: 100%;
+  }
+  .loginSys .container .language-select-container
+  {
+    width: 20%;
+  }
+}
+
+
+
+@media (min-width: 650px) and (max-width: 923px) {
+  .registerSection {
+    width: 70%;
+  }
+  .registerSection .registerForm {
+    width: 100%;
+  }
+  .loginSys .container .language-select-container
+  {
+    width: 20%;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+  .registerSection {
+    width: 80%;
+  }
+  .registerSection .registerForm {
+    width: 100%;
+    padding: 2px;
+  }
+
+  .registerSection .registerForm .react-international-phone-input-container .react-international-phone-input{
+   
+
+    width: 81%;
+  
+  }
+
+  .registerSection .registerForm .react-international-phone-input-container{
+    width: 100%;
+    position: relative;
+    left:9%;
+  
+  }
+
+  .registerSection .registerForm .react-international-phone-input-container .react-international-phone-country-selector {
+    position: relative;
+    left: 0;
+    right: 50px;
+    width: 0%;
+    z-index: 2;
+}
+
+.loginSys .container .language-select-container
+{
+  width: 30%;
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 550px) {
+  .registerSection {
+    width: 98%;
+  }
+  .registerSection .registerForm {
+    width: 100%;
+    padding: 2px;
+  }
+
+  .registerSection .registerForm input {
+    font-size: 15px;
+    width: 95%;
+  }
+
+  .registerSection .registerForm .haveAccount {
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 3%;
+  }
+  .registerSection .registerForm .submitBtn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.eyeIcon ,.eyeIconN ,
+  .eyeIconM ,.arEyeIcon ,.eyeIcon2  {
+    
+    width:22px;
+    left: 5%;
+  }
+  .enEyeIcon{
+    position: absolute;
+    right: 5%;
+    width:22px;
+    margin-left: auto;
+  }
+  
+  .registerForm::after{
+    border-top: 80px solid #f49a0b;
+    border-left: 70px solid transparent;
+  }
+  .loginSys video{
+   display: none;
+  }
+  .loginSys{
+    height: fit-content;
+  }
+  
+  .registerSection .registerForm .react-international-phone-input-container{
+    width: 100%;
+    position: relative;
+    left:0%;
+  
+  }
+  
+  .registerSection .registerForm .react-international-phone-input-container
+  .react-international-phone-country-selector{
+    position: absolute;
+    left:0;
+    right: 50px;
+    width: 10%;
+    z-index: 2;
+  
+  
+  }
+  
+  .registerSection .registerForm .react-international-phone-input-container
+  .react-international-phone-country-selector button{
+    border-radius: 40px 0 0 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10%;
+  }
+  .registerSection .registerForm .react-international-phone-input-container
+  .react-international-phone-country-selector button
+  .react-international-phone-country-selector-button__flag-emoji
+  {
+    margin: 3px;
+    padding: 2px;
+  }
+  
+  .registerSection .registerForm .react-international-phone-input-container .react-international-phone-input{
+    background-image: url("/phoneIcon.svg");
+    background-repeat: no-repeat;
+    background-position:98% 50%;
+    background-size: 18px;
+    background-position-y: center;
+    border-radius: 40px;
+    width: 98%;
+    box-shadow: rgba(186, 213, 245, 0.3) 0px 0px 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .phoneLabel{
+    position: absolute;
+    right: 20%;
+  }
+  .langSelect{
+    width: 40%;
+  }
+  .custom-select{
+    width: 100%;
+  }
+
+  .loginSys .container .language-select-container
+{
+  width: 30%;
+}
+  
+
+  }
+
