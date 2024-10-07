@@ -7,9 +7,7 @@ import Footer from '../components/footer/footer'
 function Root() {
   return (
     <>
-     <Header />
       <Outlet />
-      <Footer />
     </>
   )
 }
