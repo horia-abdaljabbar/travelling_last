@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-import "../homepage/home.css";
+import "./home.css";
 import ImageSlider from "../../components/slider/slider.jsx";
 import OfferCard from "../offers/offers.jsx";
 import BenefitCard from "../../components/cards/cards.jsx";

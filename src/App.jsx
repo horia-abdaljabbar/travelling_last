@@ -10,7 +10,7 @@ import ForgetPassword from './Pages/ForgetPassword/ForgetPassword'
 import ResetPassword from './Pages/ResetPassword/ResetPassword'
 // import HomePage from './Pages/HomeApp'
 import SendCodeForForgetPassword from './Pages/SendCodeForForgetPassword/SendCodeForForgetPassword';
-import Home from './pages/homepage/home';
+import Home from './Pages/Home/Home';
 // import  LanguageContextProvider  from './components/context/Language.jsx';
 
 function App() {
