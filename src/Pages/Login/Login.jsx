@@ -47,26 +47,26 @@ useEffect(()=>{
 
 
 if(i18n.dir()=='ltr'){
-  document.querySelector('.loginSys').setAttribute('dir','rtl');
-
-  document.querySelector('.email ').classList.remove('enEmail');
-  document.querySelector('.email').classList.add('arEmail');
-  document.querySelector('.password ').classList.remove('enPassword');
-  document.querySelector('.password').classList.add('arPassword');
-  document.querySelector('.eyeIcon1').classList.remove('enEyeIcon');
-  document.querySelector('.eyeIcon1').classList.add('arEyeIcon');
-  
-}
-
-else{
-  document.querySelector(' .loginSys').setAttribute('dir','ltr');
+  document.querySelector('.loginSys').setAttribute('dir','ltr');
 
   document.querySelector('.email ').classList.remove('arEmail');
   document.querySelector('.email').classList.add('enEmail');
   document.querySelector('.password ').classList.remove('arPassword');
   document.querySelector('.password').classList.add('enPassword');
-  document.querySelector('.eyeIcon1 ').classList.remove('arEyeIcon');
+  document.querySelector('.eyeIcon1').classList.remove('arEyeIcon');
   document.querySelector('.eyeIcon1').classList.add('enEyeIcon');
+  
+}
+
+else{
+  document.querySelector(' .loginSys').setAttribute('dir','rtl');
+
+  document.querySelector('.email ').classList.remove('enEmail');
+  document.querySelector('.email').classList.add('arEmail');
+  document.querySelector('.password ').classList.remove('enPassword');
+  document.querySelector('.password').classList.add('arPassword');
+  document.querySelector('.eyeIcon1 ').classList.remove('enEyeIcon');
+  document.querySelector('.eyeIcon1').classList.add('arEyeIcon');
 }
 
 },[i18n,i18n.language])

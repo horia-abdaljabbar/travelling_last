@@ -64,6 +64,13 @@ header .container {
   color: rgb(240, 5, 5);
 }
 
+.nav-menu ul li .language-select-container{
+  text-align: center;
+  width: fit-content;
+}
+
+
+
 .nav-menu ul li a {
   
   text-decoration: none;

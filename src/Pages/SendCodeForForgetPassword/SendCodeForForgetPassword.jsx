@@ -174,54 +174,6 @@ setOtp(newArr);
           <div className=" m-auto ">
             {/* <span className="code ">Enter The Code </span> */}
             <div className="col codeInputs mb-3 d-flex flex-row justify-content-center alig-items-center gap-3 ">
-              {/* <input
-                type="text"
-                className="form-control mb-4 shadow-1"
-                //value={user.code}
-                name="code"
-                // onChange={handleInput}
-                maxLength={1}
-                onChange={handleCode}
-                ref={codeInputRef1}
-                value={otp}
-              />
-
-              <input
-                type="text"
-                className="form-control mb-4 shadow-1"
-                //value={user.code}
-                name="code"
-                // onChange={handleInput}
-                maxLength={1}
-                ref={codeInputRef2}
-                onChange={handleCode}
-
-
-              />
-              <input
-                type="text"
-                className="form-control mb-4 shadow-1"
-                //value={user.code}
-                name="code"
-                // onChange={handleInput}
-                maxLength={1}
-                ref={codeInputRef3}
-                onChange={handleCode}
-
-
-              />
-              <input
-                type="text"
-                className="form-control mb-4 shadow-1"
-                //value={user.code}
-                name="code"
-                // onChange={handleInput}
-                maxLength={1}
-                ref={codeInputRef4}
-                onChange={handleCode}
-
-
-              /> */}
 
               {otp.map((digit, index)=>(
       <input key={index} value={digit} maxLength={1}  

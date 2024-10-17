@@ -193,4 +193,15 @@ body {
     .toggle-button{
         width: 50%;
     }
+    .nav-menu ul li .language-select-container{
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+      .nav-menu ul li .language-select-container .language-select option{
+        font-size: 10px;
+        width: fit-content;
+      }
 }

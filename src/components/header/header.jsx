@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 
 // import { LanguageContext } from "../context/Language.jsx";
 function Header() {
+
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const { t, i18n } = useTranslation();
     const toggleSidebar = () => {
@@ -22,6 +23,8 @@ function Header() {
             i18n.changeLanguage('ar');
             console.log(e.target.value + "header")
             localStorage.setItem("lang", e.target.value);
+            document.querySelector('.nav-menu ul li .language-select-container .language-select').setAttribute('dir','rtl');
+
         }
 
         else if (e.target.value == 'en') {
@@ -29,10 +32,11 @@ function Header() {
             i18n.changeLanguage('en');
             console.log(i18n.language + "header")
             localStorage.setItem("lang", e.target.value);
+            document.querySelector('.nav-menu ul li .language-select-container .language-select').setAttribute('dir','ltr');
+
 
         }
     }
-
 
 
 

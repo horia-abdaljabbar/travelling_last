@@ -45,8 +45,6 @@ else
 
 }
   }
-
-
   const handleChange = (value) => {
     setPhone(value);
 
@@ -60,22 +58,6 @@ useEffect(()=>{
 
 
 if(i18n.dir()=='ltr'){
-  document.querySelector('.regPageAll .loginSys').setAttribute('dir','rtl');
-
-  document.querySelector('.email ').classList.remove('enEmail');
-  document.querySelector('.email').classList.add('arEmail');
-  document.querySelector('.password ').classList.remove('enPassword');
-  document.querySelector('.password').classList.add('arPassword');
-  document.querySelector('.password1 ').classList.remove('enPassword');
-  document.querySelector('.password1').classList.add('arPassword');
-  document.querySelector('.eyeIcon ').classList.remove('enEyeIcon');
-  document.querySelector('.eyeIcon').classList.add('arEyeIcon');
-  document.querySelector('.eyeIconN ').classList.remove('enEyeIcon');
-  document.querySelector('.eyeIconN').classList.add('arEyeIcon');
-  
-}
-
-else{
   document.querySelector('.regPageAll .loginSys').setAttribute('dir','ltr');
 
   document.querySelector('.email ').classList.remove('arEmail');
@@ -88,6 +70,22 @@ else{
   document.querySelector('.eyeIcon').classList.add('enEyeIcon');
   document.querySelector('.eyeIconN ').classList.remove('arEyeIcon');
   document.querySelector('.eyeIconN').classList.add('enEyeIcon');
+  
+}
+
+else{
+  document.querySelector('.regPageAll .loginSys ').setAttribute('dir','rtl');
+
+  document.querySelector('.email ').classList.remove('enEmail');
+  document.querySelector('.email').classList.add('arEmail');
+  document.querySelector('.password ').classList.remove('enPassword');
+  document.querySelector('.password').classList.add('arPassword');
+  document.querySelector('.password1 ').classList.remove('enPassword');
+  document.querySelector('.password1').classList.add('arPassword');
+  document.querySelector('.eyeIcon ').classList.remove('enEyeIcon');
+  document.querySelector('.eyeIcon').classList.add('arEyeIcon');
+  document.querySelector('.eyeIconN ').classList.remove('enEyeIcon');
+  document.querySelector('.eyeIconN').classList.add('arEyeIcon');
 }
 
 },[i18n,i18n.language])
@@ -227,7 +225,7 @@ else{
            </div>
 
            <div className="col d-flex flex-column align-items-end">
-             <NavLink className="haveAccount" to="/Login">
+             <NavLink className="haveAccount" to="/Login" >
                {/* Already hava an account? */}
                {t('havaAccount')}
              </NavLink>
